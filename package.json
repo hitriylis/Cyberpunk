@@ -1,0 +1,27 @@
+{
+  "name": "cyberpunk",
+  "version": "1.0.0",
+  "description": "Layout of a landing page with adaptive based on a Figma layout",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitriylis/Cyberpunk.git"
+  },
+  "author": "Andrei Lugovov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitriylis/Cyberpunk/issues"
+  },
+  "homepage": "https://github.com/hitriylis/Cyberpunk#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  }
+}
