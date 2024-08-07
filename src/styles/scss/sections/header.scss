@@ -1,0 +1,60 @@
+.header-section {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 20px;
+  z-index: 50;
+}
+
+.header-container {
+  @include media(medium) {
+    padding: 0 12px;
+
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.header-logo {
+  @include media(medium) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  img {
+    @include media(mobile) {
+      width: 200px;
+    }
+  }
+}
+
+.header-menu {
+  @include media(medium) {
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.header-menu-list {
+  gap: 40px;
+
+  @include media(medium) {
+    gap: 30px;
+  }
+}
+
+.header-menu-item {
+  img {
+    width: 30px;
+    height: 30px;
+
+    @include media(mobile) {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

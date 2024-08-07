@@ -1,0 +1,55 @@
+.hero-container {
+  position: relative;
+  z-index: 30;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 624px;
+  height: 369px;
+  background-image: url("../../assets/images/hero_section/rectangle_big.png");
+
+  @include media(x-large) {
+    right: 36px;
+  }
+
+  @include media(custom, 697px) {
+    width: 320px;
+    height: 207px;
+    background-image: url("../../assets/images/hero_section/rectangle_small.png");
+  }
+
+  @include media(custom, 376px) {
+    right: 0;
+  }
+}
+
+.hero-title {
+  @include media(custom, 697px) {
+    margin: 30px 12px 25px;
+  }
+
+  h2 {
+    line-height: 100%;
+
+    @include media(custom, 697px) {
+      text-align: center;
+    }
+  }
+}
+
+.hero-btn {
+  font-weight: 700;
+  line-height: 167%;
+
+  @include media(custom, 697px) {
+    width: 244px;
+    height: 60px;
+    padding: 10px 0;
+    margin: 0 38px 30px;
+    font-size: 20px;
+    line-height: 200%;
+  }
+}

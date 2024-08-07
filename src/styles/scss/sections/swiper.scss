@@ -1,0 +1,44 @@
+.swiper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+}
+
+.slide-1 {
+  background-image: url("../../assets/images/hero_section/hero1_1920.jpg");
+
+  @include media(large) {
+    background-image: url("../../assets/images/hero_section/hero1_1024.jpg");
+  }
+
+  @include media(custom, 320px) {
+    background-image: url("../../assets/images/hero_section/hero1_320.jpg");
+  }
+}
+
+.slide-2 {
+  background-image: url("../../assets/images/hero_section/hero2_1920.jpg");
+
+  @include media(large) {
+    background-image: url("../../assets/images/hero_section/hero2_1024.jpg");
+  }
+
+  @include media(custom, 320px) {
+    background-image: url("../../assets/images/hero_section/hero2_320.jpg");
+  }
+}
+
+.slide-3 {
+  background-image: url("../../assets/images/hero_section/hero3_1920.jpg");
+
+  @include media(large) {
+    background-image: url("../../assets/images/hero_section/hero3_1024.jpg");
+  }
+
+  @include media(custom, 320px) {
+    background-image: url("../../assets/images/hero_section/hero3_320.jpg");
+  }
+}
